@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+        <title>my project</title>
+        <meta charset="utf-8">
+        <style>
+html{
+    background-color: #ffffff;
+}
+body{
+    margin: 0 auto;
+    width: 960px;
+    background-color: #ede6e6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #373535;
+
+}
+header{
+height: 150px;
+padding-top:20px ;
+}
+ul{
+padding: 0;
+
+}
+li{
+display: inline;
+padding: 10px;
+font-size: 16px;
+}
+header li:first-child{
+    border-right: 1px solid #373535;
+}
+.left{
+width: 320px;
+float: left;
+}
+.left ul{
+    padding-left: 30px;
+    padding-top: 90px;
+}
+.right{
+    width: 320px;
+    float: right;
+}
+.right ul{
+    float: right;
+    padding-right: 30px;
+    padding-top: 90px;
+}
+#logo{
+    widows: 320px;
+    float: center;
+    text-align: center;
+    color: #b46363;
+    font-size :36px;
+}
+#logo p{
+margin: 0;
+text-align: center;
+}
+
+
+ .cf:before,
+ .cf:after {
+     content: " "; 
+     display: table; 
+ }
+ 
+ .cf:after {
+     clear: both;
+ }
+ 
+
+ .cf {
+     *zoom: 1;
+ }
+
+ #main{
+     background-image:url('image/download (2).jpg');
+     height: 438px;
+ }
+ #main p{
+     margin: 0;
+     padding-top: 20px;
+     color:black;
+     text-align: center;
+     font-size: 30px;
+ }
+ form{
+    padding-top: 30px;
+    text-align: center;
+ }
+ #email{
+     width: 220px;
+     height: 25px;
+     border-radius: 5px;
+     padding: 0;
+     margin-right: 10px;
+ }
+
+ #click{
+     height: 25px;
+     border-radius: 5px;
+
+ }
+ .box{
+     position: relative;
+     float: left;
+     margin: 15px 0 ;
+ }
+ .box img{
+     position: relative;
+     z-index: 1;
+     margin-left: 15px;
+ }
+ .box p{
+     position: absolute;
+     width: 100%;
+     top: 12px;
+     z-index: 2;
+     text-align: center;
+     font-size: 24px;
+     margin-left: 15px ;
+ }
+ .middle p{
+     color: white;
+ }
+
+ nav{
+     font-size: 16px;
+     text-align: center;
+ }
+footer{
+    background-color:#e5e0e0;
+    height: 140px;
+    padding-top:20px;
+}
+
+ footer li{
+     border-right: 1px solid #373535 ;
+ }
+ footer li:last-child{
+
+    border-right: none;
+ }
+ footer img{
+     display: block ;
+     text-align: center;
+     margin: 0 auto;
+ }
+
+        </style>
+   </head>
+    <body>
+        <header>
+            <div class="left">
+                <ul>
+                    <li><a href="">Discounts</a></li>
+                    <li><a href="">Offer</a></li>
+                </ul>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="">Types of Car</a></li>
+                    <li><a href="">Car Problem</a></li>
+                </ul>
+            </div>
+            <div id="logo">
+                <p>MYCAR</p>
+            </div>
+        </header>
+        <div id="main">
+            <p>Be our member</p>
+            <p>sign up</p>
+            <form style="color: red;">
+                <input id="email" type="email" name="email" 
+                placeholder="enter your your email">
+                <input id="click" type="submit" 
+                value="click here">
+            </form>
+        </div>
+        <div class="cf">
+            <div class="box">
+                <a href="">
+                    <img src="image/download.jpg"/>
+                    <p style="color: white;">Car Model</p>
+                     </a>
+            </div>
+            <div class="box middle">
+                <a href="">
+                    <img src="image/sup0106_4096x2304.jpg"/>
+                    <p>Best type of cars</p>
+                     </a>
+            </div>
+            <div class="box">
+                <a href="">
+                    <img src="image/download (1).jpg"/>
+                    <p style="color:black;">Engine type</p>
+                     </a>
+            </div>
+        </div>
+        <footer>
+            <nav> <ul>
+                <li><a href="aboutus.html">aboutus</a></li>
+                <li><a href="contactus.html">contactus</a></li>
+                <li><a href="Complaints&Suggestions.html">Complaints&Suggestions</a></li>
+                <li><a href="">privacy</a></li>
+            </ul> </nav>
+        </footer>
+    </body>
+</html>
